@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AmitWebform.aspx" />
+    <Content Include="CheckWebform.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -113,6 +115,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckWebform.aspx.cs">
+      <DependentUpon>CheckWebform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckWebform.aspx.designer.cs">
+      <DependentUpon>CheckWebform.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="triall.aspx.cs">
       <DependentUpon>triall.aspx</DependentUpon>
